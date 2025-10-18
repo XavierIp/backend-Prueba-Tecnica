@@ -75,7 +75,7 @@ const sendPriceChangeEmail = async (product, oldPrice) => {
                   </div>
                   <p>Por favor, inicia sesión en el panel de administración para verificar si este cambio es correcto.</p>
                   <div style="text-align: center; margin-top: 25px;">
-                      <a href="${process.env.FRONTEND_URL || 'http://localhost:3000'}/admin/products" style="background-color: #4F46E5; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Ir al Panel de Admin</a>
+                      <a href="${process.env.FRONTEND_URL || 'https://frontend-qxupbs9cn-xaviers-projects-88fe9411.vercel.app/'}/admin/products" style="background-color: #4F46E5; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Ir al Panel de Admin</a>
                   </div>
                 </div>
                 <div style="background-color: #f8f8f8; padding: 15px; text-align: center; border-top: 1px solid #ddd; font-size: 12px; color: #777;">
