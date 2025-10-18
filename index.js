@@ -25,7 +25,7 @@ app.use('/api/users', userRoutes);
 app.use('/api', catalogRoutes);
 
 app.get('/', (req, res) => {
-  res.send('API de ProStore funcionando!');
+  res.send('API funcionando!');
 });
 
 
