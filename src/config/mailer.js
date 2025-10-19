@@ -14,7 +14,9 @@ require('dotenv').config();
 // --- Configuración del "Transportador" de Nodemailer ---
 // Crea un objeto transportador que sabe cómo enviar correos a través del SMTP de Gmail.
 const transporter = nodemailer.createTransport({
-    service: process.env.EMAIL_SERVICE, // 'gmail'
+    host: "smtp.gmail.com",
+    port: 587,
+    secure: false,
     auth: {
         user: process.env.EMAIL_USER, // tu.correo@gmail.com
         pass: process.env.EMAIL_PASS  // La contraseña de aplicación de 16 letras
